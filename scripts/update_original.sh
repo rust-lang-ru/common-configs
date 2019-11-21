@@ -11,6 +11,7 @@
 pushd "${ROOT_DIR}"
 
 git pull origin master
+git submodule update --init --recursive
 rm -rf "${ORIGINAL_DIR}"
 git clone --depth=1 "${ORIGINAL_REPO}" "${ORIGINAL_DIR}"
 rm -rf "${ORIGINAL_DIR}/.git"
