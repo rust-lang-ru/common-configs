@@ -14,9 +14,12 @@ FutTwo
 FutureResponse
 FuturesUnordered
 GenFuture
+github
+https
 IOCP
 IoBlocker
 IoObject
+lang
 LocalExecutor
 Misspelled words:
 MockTcpStream
